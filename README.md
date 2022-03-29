@@ -1,1 +1,1 @@
-https://euphonious-beignet-11ce16.netlify.app/
+https://timely-gingersnap-b2bfa4.netlify.app/
