@@ -21,7 +21,7 @@ body{
 /* Left Section */
 .left-section{
     grid-column: span 1;
-    background-color: #D3D3D3;
+    background-color: #242531;
 }
 .left-content{
     padding: 1rem;
