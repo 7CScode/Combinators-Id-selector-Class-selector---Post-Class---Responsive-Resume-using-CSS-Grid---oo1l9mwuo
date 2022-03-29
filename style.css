@@ -92,23 +92,72 @@ body{
  
 }
  /* Right Section */
-.right-section{
-    grid-column: span 1/ span 2;
-    background-color: #f7f7f7;
+  .right-section{
+    grid-column:span 1/span 2;
 }
 .right-main-content{
-    padding: 2rem 3rem;
+      padding: 2rem 3rem;
 }
-.right-titel{
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0.5rem;
-    letter-spacing: 1px;
+.right-title{
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 0.5rem;
+      letter-spacing: 1px;
 }
-
-@media screen and (min-width: 0px)and (max-width: 673px) {
-    .main-content {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-  }
+about,experience,education,project{
+      margin-bottom: 10px;
+}
+.about-para{
+      padding: 0.5rem;
+}
+.education-content{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 0.5rem;
+}
+.secondary{
+      margin-top: 10px;
+}
+.higher-secondary{
+      margin-top: 3.2rem;
+}
+.secondary h3, .higher-secondary h3{
+      margin-bottom: 10px;
+}
+.degree-section{
+      padding-bottom: 5px;
+      width: 82%;
+}
+.school{
+      width: 30%;
+}
+.degree-title{
+      font-size: 1rem;
+      margin-bottom: 5px;
+      font-weight: 580;
+}
+.sub-title{
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+}
+.sub-para{
+      font-size: 0.8rem;
+      font-weight: 700;
+}
+.experience-para{
+      width: 90%;
+}
+.project{
+      width:98%;
+}
+.company{
+      width: 18%;
+}
+@media screen and (min-width: 0px) and (max-width: 673px) {
+      .main-content{
+          display:grid;
+          grid-template-columns: repeat(1,1fr);
+      }
+      
+}
